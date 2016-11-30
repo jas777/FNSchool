@@ -60,11 +60,13 @@
 .image-section {
   height: 510px;
   border-bottom: 4px solid #1a80a5;
-  background-image: url('../images/CYAF3Wg.jpg');
-  background-position: 50% 0px;
-  background-size: cover;
+  background-image: url('../images/logo.png');
+  background-position: 50% 20%;
+  background-size:30%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 
 .body {
   height: 1000px;
@@ -250,9 +252,9 @@
   font-weight: 400;
   text-align: center;
 }
+/* Rules description */
 
 .rules-section {
-  height: 600px;
   background-color: #244753;
 }
 
@@ -297,6 +299,10 @@
   text-align: center;
 }
 
+/* end */
+
+/* Archive description */
+
 .server-voting {
   height: 250px;
   border-top: 4px solid #0b3a49;
@@ -325,6 +331,10 @@
   background-color: rgba(255, 255, 255, 0.45);
 }
 
+/* end */
+
+
+
 .footer {
   position: relative;
   left: 0px;
@@ -343,6 +353,8 @@
   font-weight: 400;
   text-align:center;
 
+ /* vote? */
+  
 .link-features {
   display: block;
   width: 400px;
@@ -350,6 +362,7 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 
 .link-staff {
   width: 400px;
@@ -366,6 +379,7 @@
   height: 15px;
 }
 
+
 .voting-para {
   font-family: Raleway, sans-serif;
   color: white;
@@ -379,6 +393,10 @@
   height: 25px;
 }
 
+ /* end? */
+
+  /* mobile */
+ 
 @media (max-width: 991px) {
   .menu-button {
     color: white;
@@ -401,4 +419,3 @@
     height: 120px;
   }
 }
-
